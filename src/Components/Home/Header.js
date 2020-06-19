@@ -19,38 +19,26 @@ import Logo from "../../assets/mwares-logo.svg"
 
 const Home = () => {
   return (
-    <div>
-      <Navbar color="light" light expand="md">
+    <div className="sticky-top">
+      <Navbar className="bg-white" light expand="md">
         <NavbarBrand href="">
           <img src={Logo} alt="logo" />
         </NavbarBrand>
         <NavbarToggler />
-        <Collapse isOpen={true} navbar>
+        <Collapse isOpen={false} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="/components/">Payment Plans</NavLink>
+              <NavbarText>Payment Plans</NavbarText>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Sign Up</NavLink>
+              <NavLink href="/register/">Sign Up</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">
+              <NavLink href="/" className="btn btn-outline-dark">
                 Login
               </NavLink>
             </NavItem>
             {/* Dropdown Menu*/}
-            <Dropdown nav isOpen={false}>
-              <DropdownToggle nav caret>
-                Dropdown
-              </DropdownToggle>
-              <DropdownMenu>
-                <DropdownItem header>Header</DropdownItem>
-                <DropdownItem disabled>Action</DropdownItem>
-                <DropdownItem>Another Action</DropdownItem>
-                <DropdownItem divider />
-                <DropdownItem>Another Action</DropdownItem>
-              </DropdownMenu>
-            </Dropdown>
           </Nav>
         </Collapse>
       </Navbar>

@@ -1,0 +1,59 @@
+[
+  {
+    "name": "John Doe",
+    "course": "Web developmnent",
+    "avatar": "https://motionwares.com/static/2aa645f3fbda45f869799d7ab09a2178/2244e/Iheme.jpg",
+    "comment": "I can not come and kill myself"
+  },
+
+  {
+    "name": "Glory Excel",
+    "course": "Web Development",
+    "avatar": "https://motionwares.com/static/22d1b4c842d88db8c0580c8a29afacc8/2244e/Chisara.jpg",
+    "comment": "Sir, I was able to CONSUME the API Chinex gave me but THEN......  Can you see my screen? It is working on my laptop, I don't know why it's not showing on yours."
+  },
+  {
+    "name": "John Doe",
+    "course": "Product Design",
+    "avatar": "https://motionwares.com/static/2aa645f3fbda45f869799d7ab09a2178/2244e/Iheme.jpg",
+    "comment": "Sir, I am having network issues and my battery will soon run out. Also, Chinedu can you MongoDB the HTML inside API with Graphql of the React"
+  },
+  {
+    "name": "John Doe",
+    "course": "Web Development",
+    "avatar": "https://motionwares.com/static/2aa645f3fbda45f869799d7ab09a2178/2244e/Iheme.jpg",
+    "comment": "Hello Sir, I found some bugs last night but I was able to fix them before the meeting"
+  },
+
+  {
+    "name": "Glory Excel",
+    "course": "Digital Marketing",
+    "avatar": "https://motionwares.com/static/22d1b4c842d88db8c0580c8a29afacc8/2244e/Chisara.jpg",
+    "comment": "Where are your blog articles? You guys should go and write content on Instagram, Twitter, LinkedIn, Facebook, Quora, Slack, MySpace, Hi5, 2go, TikTok, Baddoo, Whats App....."
+  },
+  {
+    "name": "John Doe",
+    "course": "Product Development",
+    "avatar": "https://motionwares.com/static/2aa645f3fbda45f869799d7ab09a2178/2244e/Iheme.jpg",
+    "comment": "Good Morning everyone. Hope you all slept well? Chinedu what's the update? Show me what you have been working on"
+  },
+  {
+    "name": "John Doe",
+    "course": "Web Development",
+    "avatar": "https://motionwares.com/static/2aa645f3fbda45f869799d7ab09a2178/2244e/Iheme.jpg",
+    "comment": "Sir, we have not had light since last week.... Bolu, Patience and Muhammed requested for some endpoints last night. I was able to write some of them but will deliver the others later. "
+  },
+
+  {
+    "name": "John Doe",
+    "course": "Web Development",
+    "avatar": "https://motionwares.com/static/2aa645f3fbda45f869799d7ab09a2178/2244e/Iheme.jpg",
+    "comment": "Good Morning guys! I was having some minor issues yesterday but Chinedu was able to put me through"
+  },
+  {
+    "name": "Glory Excel",
+    "course": "Web Development",
+    "avatar": "https://motionwares.com/static/22d1b4c842d88db8c0580c8a29afacc8/2244e/Chisara.jpg",
+    "comment": "Sir, React was giving me headache. So I spoke to Bolu about it but he said I should ..."
+  }
+]

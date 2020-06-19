@@ -1,0 +1,42 @@
+[
+  {
+    "first": [
+      {
+        "title": "Online Guide",
+        "description": "Students follow personalized, adaptive and interactive online guides from their dashboard"
+      },
+      {
+        "title": "Weekly Webinars",
+        "description": "We host webinar sessions to help students explain further andanswer questions."
+      },
+      {
+        "title": "Group Meetups",
+        "description": "Students are grouped to encourage teamwork, collaboration and peer-to-peer learning."
+      },
+      {
+        "title": "Hackathons",
+        "description": "We have monthly hackathons to encourage students to work on real-life projects and get a portfolio."
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "second": [
+      {
+        "title": "Internship",
+        "description": "Students that meet our completion criteria get an internship place to further gain hands-on experience."
+      },
+      {
+        "title": "Job Placement",
+        "description": "We help students that complete their internship successfully hunt down jobs."
+      },
+      {
+        "title": "Group Meetups",
+        "description": "Students are grouped to encourage teamwork, collaboration and peer-to-peer learning."
+      }
+    ]
+  }
+]

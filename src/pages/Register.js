@@ -14,7 +14,7 @@ import { Row, Col, Container, FormGroup, Label, Spinner } from "reactstrap"
 const loading = false
 require("./index.css")
 
-const Login = () => {
+const Register = () => {
   return (
     <>
       <Container fluid>
@@ -46,7 +46,7 @@ const Login = () => {
             className="py-5 px-md-5 d-flex justify-content-center align-items-center"
           >
             <div className="w-100 px-md-4">
-              <p className="font-weight-bolder h1">Login</p>
+              <p className="font-weight-bolder h1">Register</p>
               <p>Your dream job is a few clicks away.</p>
               {/* Form Validation*/}
               <Formik
@@ -61,14 +61,6 @@ const Login = () => {
 
                   password: Yup.string().required("Password is required"),
                 })}
-                onSubmit={(fields) => {
-                  Login({
-                    variables: {
-                      email: fields.email,
-                      password: fields.password,
-                    },
-                  })
-                }}
                 render={({ errors, status, touched }) => (
                   <Form>
                     {/* email */}
@@ -125,21 +117,21 @@ const Login = () => {
                       </Link>
                     </div>
 
-                    <Link to="/dashboard" className="text-dark">
+                    <Link to="/register" className="text-dark">
                       <button
                         type="submit"
                         className="btn btn-danger py-3 btn-block my-3"
                         disabled={loading}
                       >
-                        Login
+                        Register
                       </button>
                     </Link>
 
                     {/* Create new account */}
-                    <Link to="/register" className="text-dark">
-                      Don't have an account?
+                    <Link to="/" className="text-dark">
+                      Already have an account?
                       <span className="text-danger font-weight-medium">
-                        Signup
+                        Login
                       </span>
                     </Link>
                   </Form>
@@ -153,4 +145,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Register
